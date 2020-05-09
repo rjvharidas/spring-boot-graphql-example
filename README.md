@@ -6,7 +6,7 @@ Sample spring boot project with GraphQL abstraction.
 - `/rest/customer-service` is the REST resource which can fetch Customer information
 - DataFetchers are Interfaces for RuntimeWiring of GraphQL with JpaRepository
 
-###Requirements
+### Requirements
 For building and running the application you need:
 
 - JDK 1.8

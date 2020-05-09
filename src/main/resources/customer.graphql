@@ -1,0 +1,16 @@
+schema {
+    query: Query
+}
+
+type Query {
+    allCustomers: [Customer]
+    customer(id: String): Customer
+}
+
+type Customer {
+    id: String
+    name: String
+    type: String
+    accounts: [String]
+    startDate: String
+}

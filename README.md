@@ -46,3 +46,5 @@ For building and running the application you need:
       startDate
     }
   }`
+  
+  Reference for Query model : https://graphql.org/learn/queries/
